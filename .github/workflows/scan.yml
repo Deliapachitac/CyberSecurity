@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'redhat/ubi8:latest-source'
+          default: 'ghcr.io/deliapachitac/cybersecurity:latest'
 
 # env:
 #   REGISTRY: ghcr.io
